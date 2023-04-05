@@ -1,0 +1,28 @@
+package ex4;
+
+public class ex4 {
+
+	public static void main(String[] args) {
+		
+		String name = "ja" + "va";
+		String str = name + 8.0;
+		
+		System.out.print(name);
+		System.out.print(str);
+		System.out.print(7 + " ");
+		System.out.print(" " + 7);
+		System.out.print(7 + "");
+		System.out.print("" + 7);
+		System.out.print("" + "");
+		System.out.print(7 + 7 + "");
+		System.out.print("" + 7 + 7);
+		
+		
+	}
+
+}
+
+
+
+
+
