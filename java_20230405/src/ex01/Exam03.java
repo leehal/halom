@@ -16,9 +16,10 @@ public class Exam03 {
 		//num++; //값을 증가하긴 하지만 +가 어디 붙든 아래 것과 같은 것이나
 		//++num;
 		
-		tmp = ++num;
-		
-		sum = num++;
+		tmp = ++num; //++num부터 실행
+		// num = num +1 다음 tmp = num
+		sum = num++; //snm = num부터 실행
+		// sum = num 다음 num = num + 1
 		
 		System.out.println("tmp :" + tmp);
 		System.out.println("sum :" + sum);

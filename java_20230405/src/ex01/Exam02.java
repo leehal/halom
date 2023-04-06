@@ -1,6 +1,6 @@
 package ex01;
 
-public class Exam2 {
+public class Exam02 {
 
 	public static void main(String[] args) {
 		
@@ -27,7 +27,7 @@ public class Exam2 {
 		longsum = (long)sum;
 		system.out.println(longsum);
 		
-		System.out.println((double)5/2);
+		System.out.println((double)5/2); //실수형이 되어서 2.5로 나옴, 원래는 2로 나옴 나머지 버림.
 		
 		System.out.println(5&2); //그리고
 		System.out.println(5|2); //또는
