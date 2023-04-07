@@ -13,7 +13,7 @@ public class Exam06 {
 		switch(str) {
 		case 1: 
 			System.out.println("1학년");
-			break;
+			break;//break 없으면 1을 작성했을 때 1학년~4학년, 1~4외의 다른 숫자 입력불가까지 다 출력됨
 		case 2: 
 			System.out.println("2학년");
 			break;
