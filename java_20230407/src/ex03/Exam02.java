@@ -18,7 +18,7 @@ public class Exam02 {
 			System.out.println("양수");
 		else if(number ==0)
 			System.out.println(" 0");
-		else (number<0)
+		else 
 		System.out.println("음수");
 		
 		
