@@ -1,4 +1,4 @@
-package ex04;
+Exam08.javapackage ex04;
 
 import java.util.Scanner;
 
