@@ -15,10 +15,6 @@ public class E1 {
 		       count++;
 			}
 			
-			
-			
-			
-			
 		}		
 		System.out.println(sum+ " , "+count);
 }
