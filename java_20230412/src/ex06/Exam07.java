@@ -9,11 +9,12 @@ public class Exam07 {
 		int [] num = new int [a];
 		int i,j ;
 		
-		for(i=0; i<num.length;i++)
+		for(i=0; i<num.length;i++) {
 			num[i] = (int)(Math.random()*100)+1;
 		
-//     System.out.print(num[i]+ ", ");
-		
+        System.out.print(num[i]+ ", ");
+        System.out.println(" ");
+		}
 		
 		for( i=0; i<num.length; i++) {
 			for( j=i+1 ; j<num.length; j++ ) 
@@ -21,7 +22,7 @@ public class Exam07 {
 					 int s = num[i];
 			         num[i]=num[j];
 					 num[j]= s;}
-					
+				
 			System.out.print(num[i]+ ", ");
 		
 		}					
