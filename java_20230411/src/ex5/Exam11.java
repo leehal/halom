@@ -10,7 +10,9 @@ public class Exam11 {
 		System.out.println("몇 번 입력?");
 		
 		Scanner sc = new Scanner(System.in);
+		
 		int count = sc.nextInt();
+		
 		int sum=0;
 		int num=0;
 		for(;count-1>=0;count--) {
@@ -23,7 +25,9 @@ public class Exam11 {
 						sum+=num;
 				}
 				else 
-					break;
+					sc.next();
+				System.out.println("정수만 입력");
+					continue;
 					
 		
 		}
