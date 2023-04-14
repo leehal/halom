@@ -1,4 +1,4 @@
-package java_20230406;
+package ex02;
 
 
 

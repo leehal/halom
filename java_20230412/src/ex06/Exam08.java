@@ -17,7 +17,7 @@ public class Exam08 {
 		    sum+=num[i];
 		}
 		
-		double avg = sum/(	double )num.length;
+		double avg = sum/(double)num.length;
 		 System.out.println();
 		 System.out.println("합"+sum);
 		 System.out.println("평균"+avg);
