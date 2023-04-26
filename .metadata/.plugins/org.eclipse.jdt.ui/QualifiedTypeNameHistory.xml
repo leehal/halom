@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ex02.A.B"/>
+    <fullyQualifiedTypeName name="ex02.A.C"/>
+    <fullyQualifiedTypeName name="ex05.Button.ClickListener"/>
+    <fullyQualifiedTypeName name="ex07.RemoteControll"/>
+    <fullyQualifiedTypeName name="ex08.Calculable"/>
+    <fullyQualifiedTypeName name="ex09.Calculable"/>
+</qualifiedTypeNameHistroy>
