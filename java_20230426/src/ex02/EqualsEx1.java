@@ -18,7 +18,7 @@ public class EqualsEx1 {
 		Value v2 = new Value(10);
 		
 		System.out.println(v1==v2);
-		System.out.println((v1.value).equals((v2.value)));
+		System.out.println(v1.equals(v2));
 		System.out.println(v1.value);
 
 	}

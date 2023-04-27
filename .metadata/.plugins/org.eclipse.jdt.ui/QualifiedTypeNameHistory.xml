@@ -6,4 +6,16 @@
     <fullyQualifiedTypeName name="ex07.RemoteControll"/>
     <fullyQualifiedTypeName name="ex08.Calculable"/>
     <fullyQualifiedTypeName name="ex09.Calculable"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.Reader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="ex02.Member"/>
+    <fullyQualifiedTypeName name="ex02.Value"/>
+    <fullyQualifiedTypeName name="ex02.EqualsEx1"/>
 </qualifiedTypeNameHistroy>
