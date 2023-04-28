@@ -1,31 +1,14 @@
 package ex06;
-//박스에 과일 넣다빼기.
-class Apple{
-	public String toString() {
-			return "Apple";
-	}
-}
-class Orange{
-	public String toString() {
-		return "Orange";
-	}
-}
-class Box <T>{//setObj 타입 제한 String 같은거 못 들어가게
-	private T obj;
-	public T getObj() {
-		return obj;
-	}
-	public void setObj(T obj) {
-		this.obj = obj;
-	}
-}
+
+class Fruit {public String toString( ) {return "Fruit";}}
+class Apple extends Fruit{public String toString( ) {return "Apple";}}
+class Grape extends Fruit{public String toString( ) {return "Grape";}}
+class Toy {public String toString( ) {return "Toy";}}
 
 public class FruitAndBox {
 	public static void main(String[] args) {
 		
-	
-	Box<Apple> aBox = new Box<Apple>();//Apple 이거나 Apple을 상속한 타입만 가능함.
-	Box<Orange> oBox =new Box<Orange>();//Orange 거나 Orange를 상속한 타입만 가능함.
+	Box<Fruit> fruitBox
 	
 	aBox.setObj(new Apple());//제한 후 오류 나옴!
 	oBox.setObj(new Orange());

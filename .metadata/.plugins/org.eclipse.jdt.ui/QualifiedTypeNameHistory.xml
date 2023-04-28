@@ -18,4 +18,9 @@
     <fullyQualifiedTypeName name="ex02.Member"/>
     <fullyQualifiedTypeName name="ex02.Value"/>
     <fullyQualifiedTypeName name="ex02.EqualsEx1"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="ex02.AppleBox"/>
+    <fullyQualifiedTypeName name="ex02.OrangeBox"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
 </qualifiedTypeNameHistroy>
